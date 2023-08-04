@@ -1,34 +1,24 @@
-# C# Unit Testing with XUnit
-This is the repository for the LinkedIn Learning course C# Unit Testing with XUnit. The full course is available from [LinkedIn Learning][lil-course-url].
+# C# Unit Testing with xUnit
+This is the repository for the LinkedIn Learning course C# Unit Testing with xUnit. The full course is available from [LinkedIn Learning][lil-course-url].
 
-_See the readme file in the main branch for updated instructions and information._
-## Instructions
-This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
+![C# Unit Testing with xUnit][lil-thumbnail-url] 
 
-## Branches
-The branches are structured to correspond to the videos in the course. The naming convention is `CHAPTER#_MOVIE#`. As an example, the branch named `02_03` corresponds to the second chapter and the third video in that chapter. 
-Some branches will have a beginning and an end state. These are marked with the letters `b` for "beginning" and `e` for "end". The `b` branch contains the code as it is at the beginning of the movie. The `e` branch contains the code as it is at the end of the movie. The `main` branch holds the final state of the code when in the course.
-
-When switching from one exercise files branch to the next after making changes to the files, you may get a message like this:
-
-    error: Your local changes to the following files would be overwritten by checkout:        [files]
-    Please commit your changes or stash them before you switch branches.
-    Aborting
-
-To resolve this issue:
-	
-    Add changes to git using this command: git add .
-	Commit changes using this command: git commit -m "some message"
+In this course, learn the basics of test-driven development by creating a sample project in pure C# and using unit tests to validate that all the business logic works.
+Instructor Jesse Freeman first introduces you to the foundational concept of unit testing and the role xUnit plays in it. He then guides you through a detailed setup process of xUnit for your development environment. Jesse also delves deeper into the specifics of xUnit's function, benefits, and its core role in the test-driven development (TDD) cycle.
 
 ## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+If you don't already have .NET installed, you can get the .NET Core SDK from the official website or you can use Visual Studio, like I'll be using, for the Mac. Simply download install Visual Studio from the official site. 
 
 
-[0]: # (Replace these placeholder URLs with actual course URLs)
+### Instructor
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+Jesse Freeman 
+                            
 
+
+                            
+
+Check out my other courses on [LinkedIn Learning](https://www.linkedin.com/learning/instructors/jesse-freeman).
+
+[lil-course-url]: https://www.linkedin.com/learning/c-sharp-unit-testing-with-xunit?dApp=59033956&leis=LAA
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQFbkepEwSX3vA/learning-public-crop_288_512/0/1691084155010?e=2147483647&v=beta&t=eL3k3Nwihf8h9YUP9UlaAmG2WpX-Ptq6phNMQ0if13M
